@@ -1,6 +1,6 @@
 # Keycloak Theme Customization
 
-<img src="../keycloak-custom-theme/themes/custom-theme/theme/custom.v2/login/resources/img/stackquiz-custom-login.png"/>
+![Custom Login Preview](themes/custom-theme/theme/custom.v2/login/resources/img/stackquiz-custom-login.png)
 
 This repository contains a customized theme for Keycloak, an open-source identity and access management solution. The customized theme allows you to modify the look and feel of the Keycloak user interface to align with your branding and user experience requirements.
 
