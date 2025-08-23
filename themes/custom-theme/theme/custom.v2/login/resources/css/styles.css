@@ -1,0 +1,39 @@
+/** Fonts **/
+@import url('./custom-font.css');
+/* Overrides */
+@import url('./overrides.css');
+/* Defaults */
+
+#kc-header-wrapper {
+  padding: 62px 10px 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.login-pf body {
+  background: #e1e1e1;
+  background-size: cover;
+  height: 100%;
+}
+
+div.kc-logo-text {
+  background-repeat: no-repeat;
+  height: 63px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+div.kc-logo-text span {
+  display: none;
+}
+
+.login-logo {
+  background: url("../img/secure.png") no-repeat center;
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+

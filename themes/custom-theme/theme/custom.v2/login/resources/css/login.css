@@ -1,0 +1,79 @@
+.kc-container {
+  display: flex;
+  min-height: 100vh;
+  background: #0b0d39; /* dark background like your screenshot */
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.kc-left {
+  flex: 1;
+  background: #ffe6eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kc-left img {
+  max-width: 60%;
+}
+
+.kc-right {
+  flex: 1;
+  background: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kc-right h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.kc-right p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #fbbd08;
+  border-radius: 25px;
+  outline: none;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(to right, #fbbd08, #ff7b00);
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-link {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.social-login {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-login img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
