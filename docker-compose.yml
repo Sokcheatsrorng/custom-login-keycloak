@@ -20,7 +20,7 @@ services:
         - start-dev
       container_name: keycloak_server
       ports:
-        - 8080:8080
+        - 8089:8080
       volumes:
         # Providers
         # - './providers:/opt/keycloak/providers'
